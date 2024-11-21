@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Product Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>ShopEase</h1>
+  </header>
+  
+  <main class="product-page">
+    <div class="product-image">
+      <img src="https://via.placeholder.com/400" alt="Product Image" id="main-image">
+      <div class="thumbnail-container">
+        <img src="https://via.placeholder.com/100" alt="Thumbnail 1" class="thumbnail">
+        <img src="https://via.placeholder.com/100" alt="Thumbnail 2" class="thumbnail">
+        <img src="https://via.placeholder.com/100" alt="Thumbnail 3" class="thumbnail">
+      </div>
+    </div>
+
+    <div class="product-details">
+      <h2>Product Name</h2>
+      <p class="price">Rs.250.99</p>
+      <p class="description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.
+      </p>
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" value="1" min="1">
+      <button id="add-to-cart" class="btn">Add to Cart</button>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 ShopEase. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
